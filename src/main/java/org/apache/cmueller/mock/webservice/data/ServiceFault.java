@@ -1,9 +1,6 @@
 package org.apache.cmueller.mock.webservice.data;
 
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlType;
+import javax.xml.bind.annotation.*;
 
 /**
  * <p>Java class for serviceFault complex type.
@@ -30,6 +27,7 @@ import javax.xml.bind.annotation.XmlType;
     "faultCode",
     "faultText"
 })
+@XmlRootElement(namespace = "http://www.company.de/Service/1")
 public class ServiceFault {
 
     @XmlElement(required = true)

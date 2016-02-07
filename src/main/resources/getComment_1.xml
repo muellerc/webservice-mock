@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns:comment xmlns:ns="http://www.company.de/Service/1">
+    <commentId>1</commentId>
+    <text>Comment for id 1</text>
+</ns:comment>
