@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://www.company.de/Service/1">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ns:getComment>1</ns:getComment>
+    </soapenv:Body>
+</soapenv:Envelope>
