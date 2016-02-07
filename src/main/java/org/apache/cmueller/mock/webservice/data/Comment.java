@@ -12,7 +12,7 @@ import javax.xml.bind.annotation.*;
  *   &lt;complexContent&gt;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
  *       &lt;sequence&gt;
- *         &lt;element name="commentId" type="{http://www.w3.org/2001/XMLSchema}long"/&gt;
+ *         &lt;element name="id" type="{http://www.w3.org/2001/XMLSchema}long"/&gt;
  *         &lt;element name="text" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
  *       &lt;/sequence&gt;
  *     &lt;/restriction&gt;
@@ -24,14 +24,14 @@ import javax.xml.bind.annotation.*;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "comment", propOrder = {
-    "commentId",
+    "id",
     "text"
 })
 @XmlRootElement(namespace = "http://www.company.de/Service/1")
 public class Comment {
 
     @XmlElement(required = true, type = Long.class, nillable = true)
-    protected Long commentId;
+    protected Long id;
     @XmlElement(required = true, nillable = true)
     protected String text;
 
@@ -43,8 +43,8 @@ public class Comment {
      *     {@link Long }
      *     
      */
-    public Long getCommentId() {
-        return commentId;
+    public Long getId() {
+        return id;
     }
 
     /**
@@ -55,8 +55,8 @@ public class Comment {
      *     {@link Long }
      *     
      */
-    public void setCommentId(Long value) {
-        this.commentId = value;
+    public void setId(Long value) {
+        this.id = value;
     }
 
     /**

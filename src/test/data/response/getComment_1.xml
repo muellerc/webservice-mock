@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
-    <soap:Body>
-        <ns2:getCommentResponse xmlns:ns2="http://www.company.de/Service/1">
-            <commentId>1</commentId>
-            <test>Comment for id 1</test>
-        </ns2:getCommentResponse>
-    </soap:Body>
-</soap:Envelope>
